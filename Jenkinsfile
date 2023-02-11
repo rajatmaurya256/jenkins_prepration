@@ -1,7 +1,4 @@
-#pipeline must be on top
-
 pipeline{
-  #any agent: Where to execute
   stages{
     stage("Build"){
       steps{
